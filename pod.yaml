@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: 737185589565.dkr.ecr.ap-south-1.amazonaws.com/pythondf:1.0
+          image: 737185589565.dkr.ecr.ap-south-1.amazonaws.com/pythondf:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
